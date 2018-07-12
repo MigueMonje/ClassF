@@ -1,4 +1,4 @@
-.#{$main}{
+.#{$main}.text{
   @each $mq, $w in $mqs{
     @media (min-width: $w) {
       @for $i from 1 through 50 {
