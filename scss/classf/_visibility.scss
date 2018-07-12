@@ -1,0 +1,55 @@
+.#{$main}.show.in{
+  display: none;
+  @each $mq,$mq-map in $mqs-maps {
+    $mnw: map-get($mq-map,min);
+    $mxw: map-get($mq-map,max);
+
+    @media (min-width: if($mnw == null,0px,$mnw)) and (max-width: if($mxw == null,1000000px,$mxw)) {
+      &.#{$mq} {
+        display: block;
+      }
+    }
+  }
+}
+
+.#{$main}.hide.in{
+  display: block;
+  @each $mq,$mq-map in $mqs-maps {
+    $mnw: map-get($mq-map,min);
+    $mxw: map-get($mq-map,max);
+
+    @media (min-width: if($mnw == null,0px,$mnw)) and (max-width: if($mxw == null,1000000px,$mxw)) {
+      &.#{$mq} {
+        display: none;
+      }
+    }
+  }
+}
+
+.#{$main}.visible.in{
+  visibility: hidden;
+  @each $mq,$mq-map in $mqs-maps {
+    $mnw: map-get($mq-map,min);
+    $mxw: map-get($mq-map,max);
+
+    @media (min-width: if($mnw == null,0px,$mnw)) and (max-width: if($mxw == null,1000000px,$mxw)) {
+      &.#{$mq} {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.#{$main}.invisible.in{
+  visibility: visible;
+  @each $mq,$mq-map in $mqs-maps {
+    $mnw: map-get($mq-map,min);
+    $mxw: map-get($mq-map,max);
+
+    @media (min-width: if($mnw == null,0px,$mnw)) and (max-width: if($mxw == null,1000000px,$mxw)) {
+      &.#{$mq} {
+        visibility: hidden;
+      }
+    }
+  }
+}

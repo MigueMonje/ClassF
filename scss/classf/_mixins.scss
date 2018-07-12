@@ -1,0 +1,5 @@
+@mixin Pos($name,$side,$len) {
+  &.#{$name}#{$len}{
+    #{$side}:SetUnit($len,%);
+  }
+}

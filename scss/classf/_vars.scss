@@ -1,0 +1,28 @@
+// Mapa con media querys estandar
+$mqs: (
+  sm:320px,
+  md:650px,
+  lg:940px,
+  xl:1300px
+);
+
+// Mapa con media querys minimos y maximos
+$mqs-maps:(
+  sm:(
+    max:649px
+  ),
+  md:(
+    min:650px,
+    max:939px
+  ),
+  lg:(
+    min:940px,
+    max:1299px
+  ),
+  xl:(
+    min:1300px
+  )
+);
+
+// Selector Prinsipal
+$main: c;

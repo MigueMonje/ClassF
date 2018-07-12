@@ -1,0 +1,11 @@
+.#{$main}{
+  @each $mq, $w in $mqs{
+    @media (min-width: $w) {
+      @for $i from 1 through 50 {
+        &.#{$mq}size#{$i}{
+          font-size: SetUnit($i / 10,em);
+        }
+      }
+    }
+  }
+}
