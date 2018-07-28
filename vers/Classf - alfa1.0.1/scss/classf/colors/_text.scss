@@ -1,0 +1,13 @@
+.#{$main}.txt.color{
+  color: rgb(var(--txtr),var(--txtg),var(--txtb));
+  --txtr: 0;
+  --txtg: 0;
+  --txtb: 0;
+  @each $color in r, g, b {
+    @for $i from 0 through 51 {
+      &.txt-#{$color}#{$i * 5} {
+        --txt#{$color}: #{$i * 5};
+      }
+    }
+  }
+}
