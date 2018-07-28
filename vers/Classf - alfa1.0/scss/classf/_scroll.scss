@@ -1,0 +1,8 @@
+.#{$main}.scroll-{
+  &x {
+    overflow-x: scroll;
+  }
+  &y {
+    overflow-y: scroll;
+  }
+}
