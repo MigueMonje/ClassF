@@ -1,7 +1,0 @@
-.#{$main}.text{
-  @each $align in left,right,center,justify{
-    &.#{$align}{
-      text-align: $align;
-    }
-  }
-}
