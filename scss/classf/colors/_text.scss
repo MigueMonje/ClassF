@@ -4,9 +4,9 @@
   --txtg: 0;
   --txtb: 0;
   @each $color in r, g, b {
-    @for $i from 0 through 51 {
-      &.txt-#{$color}#{$i * 5} {
-        --txt#{$color}: #{$i * 5};
+    @for $i from 0 through 255 {
+      &.txt#{$color}#{$i} {
+        --txt#{$color}: #{$i};
       }
     }
   }
