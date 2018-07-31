@@ -1,12 +1,12 @@
-.#{$main}.bg.color{
+.#{$main}.bg.rgb{
   background-color: rgb(var(--bgr),var(--bgg),var(--bgb));
   --bgr: 0;
   --bgg: 0;
   --bgb: 0;
   @each $color in r, g, b {
-    @for $i from 0 through 51 {
-      &.bg-#{$color}#{$i * 5} {
-        --bg#{$color}: #{$i * 5};
+    @for $i from 0 through 255 {
+      &.bg#{$color}#{$i} {
+        --bg#{$color}: #{$i};
       }
     }
   }
