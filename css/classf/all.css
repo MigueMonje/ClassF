@@ -25,207 +25,207 @@ a {
   padding-top: 2vh;
   padding-bottom: 2vh; }
   @media (min-width: 375px) {
-    .cf.grid.with.cols.sm1 {
+    .cf.grid.cols.sm1 {
       grid-template-columns: repeat(1, 1fr); }
-    .cf.grid.with.cols.sm2 {
+    .cf.grid.cols.sm2 {
       grid-template-columns: repeat(2, 1fr); }
-    .cf.grid.with.cols.sm3 {
+    .cf.grid.cols.sm3 {
       grid-template-columns: repeat(3, 1fr); }
-    .cf.grid.with.cols.sm4 {
+    .cf.grid.cols.sm4 {
       grid-template-columns: repeat(4, 1fr); }
-    .cf.grid.with.cols.sm5 {
+    .cf.grid.cols.sm5 {
       grid-template-columns: repeat(5, 1fr); }
-    .cf.grid.with.cols.sm6 {
+    .cf.grid.cols.sm6 {
       grid-template-columns: repeat(6, 1fr); }
-    .cf.grid.with.cols.sm7 {
+    .cf.grid.cols.sm7 {
       grid-template-columns: repeat(7, 1fr); }
-    .cf.grid.with.cols.sm8 {
+    .cf.grid.cols.sm8 {
       grid-template-columns: repeat(8, 1fr); }
-    .cf.grid.with.cols.sm9 {
+    .cf.grid.cols.sm9 {
       grid-template-columns: repeat(9, 1fr); }
-    .cf.grid.with.cols.sm10 {
+    .cf.grid.cols.sm10 {
       grid-template-columns: repeat(10, 1fr); }
-    .cf.grid.with.cols.sm11 {
+    .cf.grid.cols.sm11 {
       grid-template-columns: repeat(11, 1fr); }
-    .cf.grid.with.cols.sm12 {
+    .cf.grid.cols.sm12 {
       grid-template-columns: repeat(12, 1fr); } }
   @media (min-width: 426px) {
-    .cf.grid.with.cols.md1 {
+    .cf.grid.cols.md1 {
       grid-template-columns: repeat(1, 1fr); }
-    .cf.grid.with.cols.md2 {
+    .cf.grid.cols.md2 {
       grid-template-columns: repeat(2, 1fr); }
-    .cf.grid.with.cols.md3 {
+    .cf.grid.cols.md3 {
       grid-template-columns: repeat(3, 1fr); }
-    .cf.grid.with.cols.md4 {
+    .cf.grid.cols.md4 {
       grid-template-columns: repeat(4, 1fr); }
-    .cf.grid.with.cols.md5 {
+    .cf.grid.cols.md5 {
       grid-template-columns: repeat(5, 1fr); }
-    .cf.grid.with.cols.md6 {
+    .cf.grid.cols.md6 {
       grid-template-columns: repeat(6, 1fr); }
-    .cf.grid.with.cols.md7 {
+    .cf.grid.cols.md7 {
       grid-template-columns: repeat(7, 1fr); }
-    .cf.grid.with.cols.md8 {
+    .cf.grid.cols.md8 {
       grid-template-columns: repeat(8, 1fr); }
-    .cf.grid.with.cols.md9 {
+    .cf.grid.cols.md9 {
       grid-template-columns: repeat(9, 1fr); }
-    .cf.grid.with.cols.md10 {
+    .cf.grid.cols.md10 {
       grid-template-columns: repeat(10, 1fr); }
-    .cf.grid.with.cols.md11 {
+    .cf.grid.cols.md11 {
       grid-template-columns: repeat(11, 1fr); }
-    .cf.grid.with.cols.md12 {
+    .cf.grid.cols.md12 {
       grid-template-columns: repeat(12, 1fr); } }
   @media (min-width: 769px) {
-    .cf.grid.with.cols.lg1 {
+    .cf.grid.cols.lg1 {
       grid-template-columns: repeat(1, 1fr); }
-    .cf.grid.with.cols.lg2 {
+    .cf.grid.cols.lg2 {
       grid-template-columns: repeat(2, 1fr); }
-    .cf.grid.with.cols.lg3 {
+    .cf.grid.cols.lg3 {
       grid-template-columns: repeat(3, 1fr); }
-    .cf.grid.with.cols.lg4 {
+    .cf.grid.cols.lg4 {
       grid-template-columns: repeat(4, 1fr); }
-    .cf.grid.with.cols.lg5 {
+    .cf.grid.cols.lg5 {
       grid-template-columns: repeat(5, 1fr); }
-    .cf.grid.with.cols.lg6 {
+    .cf.grid.cols.lg6 {
       grid-template-columns: repeat(6, 1fr); }
-    .cf.grid.with.cols.lg7 {
+    .cf.grid.cols.lg7 {
       grid-template-columns: repeat(7, 1fr); }
-    .cf.grid.with.cols.lg8 {
+    .cf.grid.cols.lg8 {
       grid-template-columns: repeat(8, 1fr); }
-    .cf.grid.with.cols.lg9 {
+    .cf.grid.cols.lg9 {
       grid-template-columns: repeat(9, 1fr); }
-    .cf.grid.with.cols.lg10 {
+    .cf.grid.cols.lg10 {
       grid-template-columns: repeat(10, 1fr); }
-    .cf.grid.with.cols.lg11 {
+    .cf.grid.cols.lg11 {
       grid-template-columns: repeat(11, 1fr); }
-    .cf.grid.with.cols.lg12 {
+    .cf.grid.cols.lg12 {
       grid-template-columns: repeat(12, 1fr); } }
   @media (min-width: 1025px) {
-    .cf.grid.with.cols.xl1 {
+    .cf.grid.cols.xl1 {
       grid-template-columns: repeat(1, 1fr); }
-    .cf.grid.with.cols.xl2 {
+    .cf.grid.cols.xl2 {
       grid-template-columns: repeat(2, 1fr); }
-    .cf.grid.with.cols.xl3 {
+    .cf.grid.cols.xl3 {
       grid-template-columns: repeat(3, 1fr); }
-    .cf.grid.with.cols.xl4 {
+    .cf.grid.cols.xl4 {
       grid-template-columns: repeat(4, 1fr); }
-    .cf.grid.with.cols.xl5 {
+    .cf.grid.cols.xl5 {
       grid-template-columns: repeat(5, 1fr); }
-    .cf.grid.with.cols.xl6 {
+    .cf.grid.cols.xl6 {
       grid-template-columns: repeat(6, 1fr); }
-    .cf.grid.with.cols.xl7 {
+    .cf.grid.cols.xl7 {
       grid-template-columns: repeat(7, 1fr); }
-    .cf.grid.with.cols.xl8 {
+    .cf.grid.cols.xl8 {
       grid-template-columns: repeat(8, 1fr); }
-    .cf.grid.with.cols.xl9 {
+    .cf.grid.cols.xl9 {
       grid-template-columns: repeat(9, 1fr); }
-    .cf.grid.with.cols.xl10 {
+    .cf.grid.cols.xl10 {
       grid-template-columns: repeat(10, 1fr); }
-    .cf.grid.with.cols.xl11 {
+    .cf.grid.cols.xl11 {
       grid-template-columns: repeat(11, 1fr); }
-    .cf.grid.with.cols.xl12 {
+    .cf.grid.cols.xl12 {
       grid-template-columns: repeat(12, 1fr); } }
   .cf.grid .cf.cell {
     width: 100%;
     height: 100%; }
     @media (min-width: 375px) {
-      .cf.grid .cf.cell.with.span.sm1 {
+      .cf.grid .cf.cell.span.sm1 {
         grid-column: span 1; }
-      .cf.grid .cf.cell.with.span.sm2 {
+      .cf.grid .cf.cell.span.sm2 {
         grid-column: span 2; }
-      .cf.grid .cf.cell.with.span.sm3 {
+      .cf.grid .cf.cell.span.sm3 {
         grid-column: span 3; }
-      .cf.grid .cf.cell.with.span.sm4 {
+      .cf.grid .cf.cell.span.sm4 {
         grid-column: span 4; }
-      .cf.grid .cf.cell.with.span.sm5 {
+      .cf.grid .cf.cell.span.sm5 {
         grid-column: span 5; }
-      .cf.grid .cf.cell.with.span.sm6 {
+      .cf.grid .cf.cell.span.sm6 {
         grid-column: span 6; }
-      .cf.grid .cf.cell.with.span.sm7 {
+      .cf.grid .cf.cell.span.sm7 {
         grid-column: span 7; }
-      .cf.grid .cf.cell.with.span.sm8 {
+      .cf.grid .cf.cell.span.sm8 {
         grid-column: span 8; }
-      .cf.grid .cf.cell.with.span.sm9 {
+      .cf.grid .cf.cell.span.sm9 {
         grid-column: span 9; }
-      .cf.grid .cf.cell.with.span.sm10 {
+      .cf.grid .cf.cell.span.sm10 {
         grid-column: span 10; }
-      .cf.grid .cf.cell.with.span.sm11 {
+      .cf.grid .cf.cell.span.sm11 {
         grid-column: span 11; }
-      .cf.grid .cf.cell.with.span.sm12 {
+      .cf.grid .cf.cell.span.sm12 {
         grid-column: span 12; } }
     @media (min-width: 426px) {
-      .cf.grid .cf.cell.with.span.md1 {
+      .cf.grid .cf.cell.span.md1 {
         grid-column: span 1; }
-      .cf.grid .cf.cell.with.span.md2 {
+      .cf.grid .cf.cell.span.md2 {
         grid-column: span 2; }
-      .cf.grid .cf.cell.with.span.md3 {
+      .cf.grid .cf.cell.span.md3 {
         grid-column: span 3; }
-      .cf.grid .cf.cell.with.span.md4 {
+      .cf.grid .cf.cell.span.md4 {
         grid-column: span 4; }
-      .cf.grid .cf.cell.with.span.md5 {
+      .cf.grid .cf.cell.span.md5 {
         grid-column: span 5; }
-      .cf.grid .cf.cell.with.span.md6 {
+      .cf.grid .cf.cell.span.md6 {
         grid-column: span 6; }
-      .cf.grid .cf.cell.with.span.md7 {
+      .cf.grid .cf.cell.span.md7 {
         grid-column: span 7; }
-      .cf.grid .cf.cell.with.span.md8 {
+      .cf.grid .cf.cell.span.md8 {
         grid-column: span 8; }
-      .cf.grid .cf.cell.with.span.md9 {
+      .cf.grid .cf.cell.span.md9 {
         grid-column: span 9; }
-      .cf.grid .cf.cell.with.span.md10 {
+      .cf.grid .cf.cell.span.md10 {
         grid-column: span 10; }
-      .cf.grid .cf.cell.with.span.md11 {
+      .cf.grid .cf.cell.span.md11 {
         grid-column: span 11; }
-      .cf.grid .cf.cell.with.span.md12 {
+      .cf.grid .cf.cell.span.md12 {
         grid-column: span 12; } }
     @media (min-width: 769px) {
-      .cf.grid .cf.cell.with.span.lg1 {
+      .cf.grid .cf.cell.span.lg1 {
         grid-column: span 1; }
-      .cf.grid .cf.cell.with.span.lg2 {
+      .cf.grid .cf.cell.span.lg2 {
         grid-column: span 2; }
-      .cf.grid .cf.cell.with.span.lg3 {
+      .cf.grid .cf.cell.span.lg3 {
         grid-column: span 3; }
-      .cf.grid .cf.cell.with.span.lg4 {
+      .cf.grid .cf.cell.span.lg4 {
         grid-column: span 4; }
-      .cf.grid .cf.cell.with.span.lg5 {
+      .cf.grid .cf.cell.span.lg5 {
         grid-column: span 5; }
-      .cf.grid .cf.cell.with.span.lg6 {
+      .cf.grid .cf.cell.span.lg6 {
         grid-column: span 6; }
-      .cf.grid .cf.cell.with.span.lg7 {
+      .cf.grid .cf.cell.span.lg7 {
         grid-column: span 7; }
-      .cf.grid .cf.cell.with.span.lg8 {
+      .cf.grid .cf.cell.span.lg8 {
         grid-column: span 8; }
-      .cf.grid .cf.cell.with.span.lg9 {
+      .cf.grid .cf.cell.span.lg9 {
         grid-column: span 9; }
-      .cf.grid .cf.cell.with.span.lg10 {
+      .cf.grid .cf.cell.span.lg10 {
         grid-column: span 10; }
-      .cf.grid .cf.cell.with.span.lg11 {
+      .cf.grid .cf.cell.span.lg11 {
         grid-column: span 11; }
-      .cf.grid .cf.cell.with.span.lg12 {
+      .cf.grid .cf.cell.span.lg12 {
         grid-column: span 12; } }
     @media (min-width: 1025px) {
-      .cf.grid .cf.cell.with.span.xl1 {
+      .cf.grid .cf.cell.span.xl1 {
         grid-column: span 1; }
-      .cf.grid .cf.cell.with.span.xl2 {
+      .cf.grid .cf.cell.span.xl2 {
         grid-column: span 2; }
-      .cf.grid .cf.cell.with.span.xl3 {
+      .cf.grid .cf.cell.span.xl3 {
         grid-column: span 3; }
-      .cf.grid .cf.cell.with.span.xl4 {
+      .cf.grid .cf.cell.span.xl4 {
         grid-column: span 4; }
-      .cf.grid .cf.cell.with.span.xl5 {
+      .cf.grid .cf.cell.span.xl5 {
         grid-column: span 5; }
-      .cf.grid .cf.cell.with.span.xl6 {
+      .cf.grid .cf.cell.span.xl6 {
         grid-column: span 6; }
-      .cf.grid .cf.cell.with.span.xl7 {
+      .cf.grid .cf.cell.span.xl7 {
         grid-column: span 7; }
-      .cf.grid .cf.cell.with.span.xl8 {
+      .cf.grid .cf.cell.span.xl8 {
         grid-column: span 8; }
-      .cf.grid .cf.cell.with.span.xl9 {
+      .cf.grid .cf.cell.span.xl9 {
         grid-column: span 9; }
-      .cf.grid .cf.cell.with.span.xl10 {
+      .cf.grid .cf.cell.span.xl10 {
         grid-column: span 10; }
-      .cf.grid .cf.cell.with.span.xl11 {
+      .cf.grid .cf.cell.span.xl11 {
         grid-column: span 11; }
-      .cf.grid .cf.cell.with.span.xl12 {
+      .cf.grid .cf.cell.span.xl12 {
         grid-column: span 12; } }
 
 .cf.show.in {

@@ -9,7 +9,7 @@
   padding-top: 2vh;
   padding-bottom: 2vh;
 
-  &.with.cols{
+  &.cols{
     @each $mq,$w in $mqs {
       @media (min-width: $w) {
         @for $i from 1 to 13 {
@@ -24,7 +24,7 @@
     width: 100%;
     height: 100%;
 
-    &.with.span{
+    &.span{
       @each $mq,$w in $mqs {
         @media (min-width: $w) {
           @for $i from 1 to 13 {
