@@ -12,17 +12,4 @@
       }
     }
   }
-  &.hsl{
-    background-color: hsl(var(--bgh),var(--bgs),var(--bgl));
-    --bgh: 0;
-    --bgs: 0;
-    --bgl: 0;
-    @each $color in h, s, l {
-      @for $i from 0 through 255 {
-        &.bg#{$color}#{$i} {
-          --bg#{$color}: #{$i};
-        }
-      }
-    }
-  }
 }
