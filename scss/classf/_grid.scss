@@ -12,7 +12,7 @@
   &.cols{
     @each $mq,$w in $mqs {
       @media (min-width: $w) {
-        @for $i from 1 to 13 {
+        @for $i from 1 through 25 {
           &.#{$mq}#{$i} {
             grid-template-columns: repeat($i,1fr);
           }
@@ -27,7 +27,7 @@
     &.span{
       @each $mq,$w in $mqs {
         @media (min-width: $w) {
-          @for $i from 1 to 13 {
+          @for $i from 1 through 25 {
             &.#{$mq}#{$i} {
               grid-column: span $i;
             }
